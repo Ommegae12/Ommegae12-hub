@@ -1,0 +1,32 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source%27))()
+
+
+local Window = Rayfield:CreateWindow({
+	Name = "Ommegae12 hub",
+	LoadingTitle = "loading script any bug report to my discord .........7#2626",
+	LoadingSubtitle = "by Ommegae12",
+	ConfigurationSaving = {
+		Enabled = true,
+		FolderName = nil, -- Create a custom folder for your hub/game
+		FileName = "Ommegae12 Hub"
+        },
+	KeySystem = true, -- Set this to true to use our key system
+	KeySettings = {
+		Title = "key system",
+		Subtitle = "Key System",
+		Note = "Join the discord https://discord.gg/thZhsCpFZn",
+		FileName = "SiriusKey",
+		SaveKey = true,
+		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+		Key = "Ommegae12"
+	}
+})
+
+
+
+
+
+
+
+
+Rayfield:LoadConfiguration()
